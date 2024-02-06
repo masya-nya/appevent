@@ -20,9 +20,7 @@ const initialState: GoodsStoreI = {
 const goodsSlice = createSlice({
 	name: 'goods',
 	initialState,
-	reducers: {
-
-	},
+	reducers: {},
 	extraReducers: (builder) => {
 		builder.addCase(fetchGoods.pending, (state) => {
 			state.isLoading = true;
@@ -36,6 +34,6 @@ const goodsSlice = createSlice({
 	}
 });
 
-export const {  } = goodsSlice.actions;
+export const {} = goodsSlice.actions;
 
 export const goodsReducer = goodsSlice.reducer;
