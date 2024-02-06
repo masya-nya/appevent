@@ -22,7 +22,7 @@ export const BasketOrder: FC<BasketOrderProps> = () => {
 
 	const placeAnOrder = useCallback(() => {
 		alert(`Вы оформили заказ на сумму ${basketGoodsAmount}, поздравляю`);
-	}, []);
+	}, [basketGoodsAmount]);
 
 	return (
 		<div className={cl['basket-order']}>

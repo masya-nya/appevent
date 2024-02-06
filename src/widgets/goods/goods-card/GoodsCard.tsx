@@ -28,11 +28,11 @@ export const GoodsCard: FC<GoodsCardProps> = ({ good }) => {
 
 	const goToOrder = useCallback(() => {
 		navigate(BASKET);
-	}, [])
+	}, [BASKET])
 
 	const addGoodToBasket = useCallback(() => {
 		dispatch(addGood(good));
-	}, []);
+	}, [good]);
 
 	return (
 		<div className={cl['goods-card']}>

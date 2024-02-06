@@ -25,7 +25,7 @@ export const BasketItem: FC<BasketItemProps> = ({
 
 	const removeGoodFromBasket = useCallback(() => {
 		dispatch(removeGood(id))
-	}, [])
+	}, [id])
 	return (
 		<div className={cl['basket-item']}>
 			<div className={cl['basket-item__seq']}>{idx + 1}</div>
