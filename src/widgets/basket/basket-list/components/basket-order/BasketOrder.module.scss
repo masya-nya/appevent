@@ -9,3 +9,12 @@
 		margin: 0 0 0 20px;
 	}
 }
+
+@media (max-width: 500px) {
+	.basket-order {
+		padding: 10px 15px;
+		font-size: 13px;
+		flex-direction: column;
+		gap: 10px 0;
+	}
+}

@@ -19,3 +19,14 @@
 		}
 	}
 }
+
+@media (max-width: 500px) {
+	.navigation {
+		&__main {
+			gap: 0 10px;
+		}
+		&__link {
+			font-size: var(--font-size-m);
+		}
+	}
+}
