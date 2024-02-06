@@ -1,0 +1,15 @@
+@import './reset.scss';
+@import './variables/colors.scss';
+@import './variables/global.scss';
+
+.app {
+	font: var(--font-m);
+
+	background: var(--white-color);
+	color: var(--font-primary-color);
+
+	height: 100vh;
+}
+.active {
+	text-decoration: underline !important;
+}

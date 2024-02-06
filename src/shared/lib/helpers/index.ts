@@ -1,0 +1,1 @@
+export { pluralizeWord } from './pluralizeWord';

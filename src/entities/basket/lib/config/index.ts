@@ -1,0 +1,1 @@
+export const BASKET_LS_KEY = 'BASKET_LS_KEY';

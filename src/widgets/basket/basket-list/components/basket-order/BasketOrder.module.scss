@@ -1,0 +1,11 @@
+.basket-order {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #EEE;
+	padding: 20px 30px;
+	border-radius: var(--border-l);
+	&__ctrl {
+		margin: 0 0 0 20px;
+	}
+}

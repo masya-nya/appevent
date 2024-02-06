@@ -1,0 +1,39 @@
+.goods-card {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: var(--border-m);
+	box-shadow: var(--box-shadow-base);
+
+	&__image {
+		height: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 30px;
+		& img {
+			width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+	}
+	&__price {
+		color: var(--font-lighter-color);
+	}
+	&__name {
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		margin: 0 0 10px 0;
+	}
+	&__info {
+		flex-grow: 1;
+	}
+	&__ctrl {
+		flex-grow: 0;
+		display: flex;
+		align-items: center;
+		gap: 0 10px;
+	}
+}

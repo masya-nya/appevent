@@ -1,0 +1,6 @@
+.goods-list {
+	padding: 20px 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Сделаем колонки, которые будут автоматически заполняться, минимальная ширина 200px */
+	gap: 20px;
+}

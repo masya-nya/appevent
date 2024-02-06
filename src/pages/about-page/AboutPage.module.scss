@@ -1,0 +1,15 @@
+.about-page {
+	padding: 20px 0 0 0;
+	&__title {
+		margin: 0 0 20px 0;
+		text-align: center;
+	}
+	&__notes {
+		background-color: #EEE;
+		padding: 30px 60px;
+		text-align:justify;
+		border-radius: var(--border-l);
+		font-size: var(--font-size-m);
+		line-height: 1.9;
+	}
+}

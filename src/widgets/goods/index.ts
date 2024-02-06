@@ -1,0 +1,1 @@
+export { GoodsCard } from './goods-card/GoodsCard';

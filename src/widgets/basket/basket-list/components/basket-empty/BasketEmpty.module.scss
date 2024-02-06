@@ -1,0 +1,12 @@
+.basket-empty {
+	width: 100%;
+	background-color: var(--primary-color);
+	padding: 10px;
+	border-radius: var(--border-l);
+	margin: 10px;
+	text-align: center;
+	&--link {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}

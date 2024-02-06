@@ -1,0 +1,9 @@
+.layout {
+	max-width: var(--layout-content-width);
+	margin: 0 auto;
+	height: 100%;
+	&__content {
+		padding: var(--header-height) 10px 0 10px;
+		height: 100%;
+	}
+}
